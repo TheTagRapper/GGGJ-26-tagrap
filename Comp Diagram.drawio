@@ -1,14 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
   <diagram name="Page-1" id="3SRkCwE-iqrmR-R1dkZF">
-    <mxGraphModel dx="2108" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Oj341IHVBwX1fT-Wn4TT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="370" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="Oj341IHVBwX1fT-Wn4TT-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Have different zone&lt;/div&gt;&lt;div&gt;- Stealth Game&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Level structure will work like doom 93&lt;/div&gt;&lt;div&gt;Has a top-down perspective&lt;/div&gt;" vertex="1">
-          <mxGeometry height="420" width="260" x="-10" y="-310" as="geometry" />
+        <mxCell id="Oj341IHVBwX1fT-Wn4TT-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Have different zone&lt;/div&gt;&lt;div&gt;- Stealth Game&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Level structure will work like doom 93&lt;/div&gt;&lt;div&gt;- Has a top-down perspective&lt;/div&gt;&lt;div&gt;- Stealthily work through one area to access other areas (still accessible but heavily guarded)&lt;/div&gt;&lt;div&gt;- Get to exit&lt;/div&gt;&lt;div&gt;- Setting is a secure facility that you make ur way through&lt;/div&gt;&lt;div&gt;- 3 full levels&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="280" x="60" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Goals of Levels&lt;/div&gt;&lt;div&gt;Primary Goal: Get to End&lt;/div&gt;&lt;div&gt;Secondary Goal: Get Mask&lt;/div&gt;&lt;div&gt;Tertiary Goal: Evade Detection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="240" x="440" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Methods of Detection:&lt;/div&gt;&lt;div&gt;Patrolling Guards (set path)&lt;/div&gt;&lt;div&gt;Cameras (should show FOV)&lt;/div&gt;&lt;div&gt;Controlled Entry Points&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can get away from camera detection but must hide away for determined period of time.(e.g. not be detected by guards)&lt;/div&gt;&lt;div&gt;Point of hiding should be&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="390" y="-380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
