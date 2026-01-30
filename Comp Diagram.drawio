@@ -1,20 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
   <diagram name="Page-1" id="3SRkCwE-iqrmR-R1dkZF">
-    <mxGraphModel dx="1281" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2108" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Oj341IHVBwX1fT-Wn4TT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-7" edge="1" parent="1" source="Oj341IHVBwX1fT-Wn4TT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oj341IHVBwX1fT-Wn4TT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stealth Game" vertex="1">
           <mxGeometry height="60" width="120" x="370" y="40" as="geometry" />
         </mxCell>
         <mxCell id="Oj341IHVBwX1fT-Wn4TT-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Have different zone&lt;/div&gt;&lt;div&gt;- Stealth Game&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Level structure will work like doom 93&lt;/div&gt;&lt;div&gt;- Has a top-down perspective&lt;/div&gt;&lt;div&gt;- Stealthily work through one area to access other areas (still accessible but heavily guarded)&lt;/div&gt;&lt;div&gt;- Get to exit&lt;/div&gt;&lt;div&gt;- Setting is a secure facility that you make ur way through&lt;/div&gt;&lt;div&gt;- 3 full levels&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="280" x="60" y="-490" as="geometry" />
+          <mxGeometry height="170" width="280" x="50" y="-600" as="geometry" />
         </mxCell>
         <mxCell id="EUAbGZQbM6S6KMN9Rbw_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Goals of Levels&lt;/div&gt;&lt;div&gt;Primary Goal: Get to End&lt;/div&gt;&lt;div&gt;Secondary Goal: Get Mask&lt;/div&gt;&lt;div&gt;Tertiary Goal: Evade Detection&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="240" x="440" y="-530" as="geometry" />
+          <mxGeometry height="110" width="240" x="530" y="-600" as="geometry" />
         </mxCell>
-        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Methods of Detection:&lt;/div&gt;&lt;div&gt;Patrolling Guards (set path)&lt;/div&gt;&lt;div&gt;Cameras (should show FOV)&lt;/div&gt;&lt;div&gt;Controlled Entry Points&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can get away from camera detection but must hide away for determined period of time.(e.g. not be detected by guards)&lt;/div&gt;&lt;div&gt;Point of hiding should be&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="350" x="390" y="-380" as="geometry" />
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Methods of Detection:&lt;/div&gt;&lt;div&gt;Patrolling Guards (set path)&lt;/div&gt;&lt;div&gt;Cameras (should show FOV)&lt;/div&gt;&lt;div&gt;Controlled Entry Points&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can get away from camera detection but must hide away for determined period of time.(e.g. not be detected by guards)&lt;/div&gt;&lt;div&gt;Point of hiding should be far away from any passage towards new area or mask&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="30" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Structure of Levels:&lt;/div&gt;&lt;div&gt;Beginning - Neutral Area&lt;/div&gt;&lt;div&gt;There is an obvious not meant to be here area indicated after that which has guards with masks&lt;/div&gt;&lt;div&gt;We then get to some area which is obviously where masks are&lt;/div&gt;&lt;div&gt;This is to get through a checkpoint (direct/indirect) of sorts that you can&#39;t get through without mask&lt;/div&gt;&lt;div&gt;We repeat this one more time with a mix of checkpoint types&lt;/div&gt;&lt;div&gt;To get towards end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" x="450" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Types of Checkpoints:&lt;/div&gt;&lt;div&gt;Direct:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Checkpoint&lt;/div&gt;&lt;div&gt;Mask recognition&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[OLLU I NEED UR HELP]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Indirect:&lt;/div&gt;&lt;div&gt;Difficult Sweep of Guards&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="510" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-9" edge="1" parent="1" source="EUAbGZQbM6S6KMN9Rbw_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-13" edge="1" parent="1" source="EUAbGZQbM6S6KMN9Rbw_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Gameplay" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-11" edge="1" parent="1" source="EUAbGZQbM6S6KMN9Rbw_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Player" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Moving&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-120" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-15" edge="1" parent="1" source="EUAbGZQbM6S6KMN9Rbw_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-17" edge="1" parent="1" source="EUAbGZQbM6S6KMN9Rbw_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EUAbGZQbM6S6KMN9Rbw_-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Obstacles" vertex="1">
+          <mxGeometry height="40" width="100" x="250" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Cameras" vertex="1">
+          <mxGeometry height="40" width="100" x="140" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="EUAbGZQbM6S6KMN9Rbw_-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Guards" vertex="1">
+          <mxGeometry height="40" width="90" x="360" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
