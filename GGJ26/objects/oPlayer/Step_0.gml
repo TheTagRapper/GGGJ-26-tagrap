@@ -19,4 +19,5 @@ if keyboard_check(ord("W"))
 	xsp += x_speed;
 }
 
+//replace oWall with array when needed
 move_and_collide(xsp, ysp, oWall);
