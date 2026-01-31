@@ -17,10 +17,15 @@ yprevious = y;
 last_time_sight = current_time;
 sight_range = 64;
 no_sight_limit = 3 * power(10, 3); //Remember time is in milliseconds 
+swing_range = 48;
 
 // Adding blank chase path
 chase_path = path_add()
+return_path = path_add()
+
+
 
 //Creating mp_grid to create solids
 global.grid = mp_grid_create(0, 0, room_width / cellWidth , room_height / cellHeight, cellWidth, cellHeight)
 mp_grid_add_instances(global.grid, oWall, true); //Mark oWalls as solid
+

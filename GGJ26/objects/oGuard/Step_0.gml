@@ -2,9 +2,9 @@ curTime = current_time;
 if (state == guardStates.patrol)
 {
 	//Setting Looping Path
-	if (path_index != patrol_path)
+	if (path_index != patrol_path and path_index != return_path)
 	{
-		path_start(patrol_path, 1.5, path_action_restart, false);
+		path_start(patrol_path, 1.5, path_action_restart, true);
 	}
 	
 	// State Transition
@@ -27,7 +27,7 @@ if (state == guardStates.patrol)
 	// Does using mp_grid path (better than linear)
 	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, false)
 	{
-		path_start(chase_path, 1.5, path_action_stop, false);
+		path_start(chase_path, 1.5, path_action_stop, true);
 	}
 	
 	// Checks if its been too long since its seen the player
@@ -37,14 +37,20 @@ if (state == guardStates.patrol)
 
 
 	// State Transition to Patrol		
-	} else if last_time_sight - current_time == (no_sight_limit){
+	} else if current_time - last_time_sight >= (no_sight_limit){
 		
 		state = guardStates.patrol;
+		path_end();
+		
+		if mp_grid_path(global.grid, return_path, x , y ,path_get_point_x(patrol_path, 0), path_get_point_y(patrol_path, 0), false)
+		{
+				path_start(return_path, 1.5, path_action_stop, true);
+		}
 	 
 	} 
 	
 	// State Transition to Bat
-	if (point_distance(x, y, player.x, player.y) < 32)
+	if (point_distance(x, y, player.x, player.y) < swing_range)
 	{
 		state = guardStates.swing;
 		//Need to prematruely end path
@@ -62,7 +68,7 @@ if (state == guardStates.patrol)
 	}
 	
 	//State Transision to Chase
-	if (point_distance(x, y, player.x, player.y) > 32)
+	if (point_distance(x, y, player.x, player.y) > swing_range)
 	{
 		instance_destroy(guardBat, true);
 		state = guardStates.chase;
