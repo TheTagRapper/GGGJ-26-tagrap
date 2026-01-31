@@ -6,3 +6,6 @@ ysp = 0;
 // Just how much change in each dir per step
 x_speed = 2.5;
 y_speed = 2.5;
+
+global.playerDetected = false;
+global.playerLastSeen = 6 * power(10,6);
