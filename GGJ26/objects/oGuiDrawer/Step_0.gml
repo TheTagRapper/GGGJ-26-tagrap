@@ -1,0 +1,1 @@
+player = instance_nearest(x, y, oPlayer)

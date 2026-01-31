@@ -12,11 +12,14 @@ if (state == guardStates.patrol)
 	{
 		var player = instance_nearest(x, y, oPlayer);
 		// Detects if player is close
-		if (point_distance(x, y, player.x, player.y) < sight_range)
+		if (point_distance(x, y, player.x, player.y) < sight_range) 
 		{
-			state = guardStates.chase;
+			if checkThroughMasks(player, acceptable_masks){
+				state = guardStates.chase;
+				path_end();
+			}
 			//Need to prematruely end path
-			path_end();
+
 		}
 	}
 	

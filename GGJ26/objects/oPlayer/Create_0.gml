@@ -7,6 +7,11 @@ ysp = 0;
 x_speed = 2.5;
 y_speed = 2.5;
 
+masks = ["", "" ,""];
+selected_mask = masks[0]
+
+pHealth = 3;
+
 global.playerDetected = false;
 global.playerLastSeen = 7 * power(10,6);
 global.alertTime = 3 * power(10,3);

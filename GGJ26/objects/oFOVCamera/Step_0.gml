@@ -5,10 +5,8 @@ if instance_exists(oPlayer)
 	var player = instance_nearest(x, y, oPlayer)
 	if place_meeting(x, y, player)
 	{
-		//SET ALARMS FOR OTHER CHARACTERS
-
-		global.playerDetected = true;
-		global.playerLastSeen = current_time
+	
+		checkThroughMasks(player, acceptable_masks)
 	} else if current_time - global.playerLastSeen > (global.alertTime) 
 	{
 		// RESET BACK TO NORMAL 

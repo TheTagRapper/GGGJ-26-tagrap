@@ -6,7 +6,7 @@ cellHeight = 32;
 enum guardStates { patrol, chase, swing};
 
 state = guardStates.patrol;
-patrol_path = demoPath; // Changed in creation code for instance
+ // Changed in creation code for instance
 path_start(patrol_path, 1.5, path_action_restart, true);
 
 //Needed to orient object to path
@@ -14,15 +14,16 @@ xprevious = x;
 yprevious = y;
 
 //Determining detection paths
-last_time_sight = current_time;sight_range = 48;
-no_sight_limit = 3 * power(10, 3); //Remember time is in milliseconds 
+sight_range = 96;
 swing_range = 48;
 
 // Adding blank chase path
 chase_path = path_add()
 return_path = path_add()
 
-
+// CREATION CODE DEFAULTS
+acceptable_masks = ["demMask"]
+patrol_path = demoPath;
 
 //Creating mp_grid to create solids
 global.grid = mp_grid_create(0, 0, room_width / cellWidth , room_height / cellHeight, cellWidth, cellHeight)

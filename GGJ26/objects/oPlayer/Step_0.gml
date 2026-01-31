@@ -21,3 +21,15 @@ if keyboard_check(ord("W"))
 
 //replace oWall with array when needed
 move_and_collide(xsp, ysp, oWall);
+
+// Changing masks
+if keyboard_check(ord(1))
+{
+	selected_mask = masks[0]
+} else if keyboard_check(ord(2))
+{
+	selected_mask = masks[1]
+} else if keyboard_check(ord(3))
+{
+	selected_mask = masks[2]
+}
