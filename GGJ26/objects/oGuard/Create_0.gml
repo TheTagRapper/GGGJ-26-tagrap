@@ -7,7 +7,6 @@ enum guardStates { patrol, chase, swing};
 
 state = guardStates.patrol;
  // Changed in creation code for instance
-path_start(patrol_path, 1.5, path_action_restart, true);
 
 //Needed to orient object to path
 xprevious = x;
