@@ -25,7 +25,7 @@ if (state == guardStates.patrol)
 	var player = instance_nearest(x, y, oPlayer);
 	// Moving towards player
 	// Does using mp_grid path (better than linear)
-	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, false)
+	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, true)
 	{
 		path_start(chase_path, 1.5, path_action_stop, true);
 	}
@@ -33,23 +33,23 @@ if (state == guardStates.patrol)
 	// Checks if its been too long since its seen the player
 	if (point_distance(x, y, player.x, player.y) < sight_range)
 	{
-		last_time_sight = current_time;
+		global.playerLastSeen = current_time;
 
 
 	// State Transition to Patrol		
-	} else if current_time - last_time_sight >= (no_sight_limit){
+	} else if current_time - global.playerLastSeen >= global.alertTime or !(global.playerDetected){
 		
 		state = guardStates.patrol;
 		path_end();
 		
-		if mp_grid_path(global.grid, return_path, x , y ,path_get_point_x(patrol_path, 0), path_get_point_y(patrol_path, 0), false)
+		if mp_grid_path(global.grid, return_path, x , y ,path_get_point_x(patrol_path, 0), path_get_point_y(patrol_path, 0), true)
 		{
 				path_start(return_path, 1.5, path_action_stop, true);
 		}
 	 
 	} 
 	
-	// State Transition to Bat
+	// State Transition to swing
 	if (point_distance(x, y, player.x, player.y) < swing_range)
 	{
 		state = guardStates.swing;
@@ -62,7 +62,7 @@ if (state == guardStates.patrol)
 	var player = instance_nearest(x, y, oPlayer);
 	// Moving towards player
 	// Does using mp_grid path (better than linear)
-	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, false)
+	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, true)
 	{
 		path_start(chase_path, 1.5, path_action_stop, false);
 	}

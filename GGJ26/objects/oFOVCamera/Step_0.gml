@@ -6,13 +6,18 @@ if instance_exists(oPlayer)
 	if place_meeting(x, y, player)
 	{
 		//SET ALARMS FOR OTHER CHARACTERS
-		image_index = 1; //Debug line
+
 		global.playerDetected = true;
 		global.playerLastSeen = current_time
-	} else if current_time - global.playerLastSeen > (3 * power(10,3)) 
+	} else if current_time - global.playerLastSeen > (global.alertTime) 
 	{
 		// RESET BACK TO NORMAL 
 		global.playerDetected = false;
 		image_index = 0;
 	}
 }
+
+if (global.playerDetected)
+{
+			image_index = 1; //Debug line
+} else image_index = 0;
