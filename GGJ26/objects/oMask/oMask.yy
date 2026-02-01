@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oDemMask",
+  "%Name":"oMask",
   "eventList":[],
   "managed":true,
-  "name":"oDemMask",
+  "name":"oMask",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDemMask",
-    "path":"sprites/sDemMask/sDemMask.yy",
+    "name":"sMask",
+    "path":"sprites/sMask/sMask.yy",
   },
   "spriteMaskId":null,
   "visible":true,

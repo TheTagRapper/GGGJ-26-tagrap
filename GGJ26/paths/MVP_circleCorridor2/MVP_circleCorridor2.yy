@@ -5,8 +5,8 @@
   "kind":0,
   "name":"MVP_circleCorridor2",
   "parent":{
-    "name":"Paths",
-    "path":"folders/Paths.yy",
+    "name":"MVPLevel",
+    "path":"folders/Paths/MVPLevel.yy",
   },
   "points":[
     {"speed":100.0,"x":480.0,"y":1440.0,},

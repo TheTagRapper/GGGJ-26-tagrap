@@ -6,7 +6,7 @@ if instance_exists(oPlayer)
 	if place_meeting(x, y, player)
 	{
 	
-		checkThroughMasks(player, acceptable_masks)
+		checkThroughMasks(player, instance_nearest(x,y, oGuard).image_index)
 	} else if current_time - global.playerLastSeen > (global.alertTime) 
 	{
 		// RESET BACK TO NORMAL 

@@ -17,7 +17,7 @@ if (state == guardStates.patrol)
 		// Detects if player is close
 		if (point_distance(x, y, player.x, player.y) < sight_range) 
 		{
-			if checkThroughMasks(player, acceptable_masks){
+			if checkThroughMasks(player, image_index){
 				state = guardStates.chase;
 				path_end();
 				//Switch to swing bypassing mask

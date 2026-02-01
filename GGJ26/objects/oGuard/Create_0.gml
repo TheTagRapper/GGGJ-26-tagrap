@@ -22,7 +22,6 @@ chase_path = path_add()
 return_path = path_add()
 
 // CREATION CODE DEFAULTS
-acceptable_masks = ["demMask"]
 patrol_path = demoPath;
 guard_speed = 1.5;
 

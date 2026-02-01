@@ -1,15 +1,12 @@
-function checkThroughMasks(player, acceptable_masks){
+function checkThroughMasks(player, image_index){
 	
 	disguised = false;
 	if !(global.overlap_detected)
 	{
-		for (var i = 0; i < array_length(acceptable_masks); i++) {
-			if acceptable_masks[i] == player.selected_mask 
-			{
-				disguised = true;
-				break;
-			}
-			
+		var iIndex = player.image_index;
+		if (image_index + 1 == iIndex) 
+		{
+			disguised = true;
 		}
 	}		
 	//SET ALARMS FOR OTHER CHARACTERS

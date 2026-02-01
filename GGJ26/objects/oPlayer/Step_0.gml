@@ -43,4 +43,8 @@ if place_meeting(x,y, oBat) and current_time - last_hit_time >= 0.5 * power(10,3
 	last_hit_time = current_time;
 }
 
-
+//DEBUG ONLY
+if keyboard_check(ord("R"))
+{
+	room_restart()
+}
