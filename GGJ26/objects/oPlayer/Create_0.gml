@@ -17,3 +17,6 @@ global.playerLastSeen = 7 * power(10,6);
 global.alertTime = 5 * power(10,3);
 
 last_hit_time = 0;
+
+instance_col_list = ds_list_create();
+global.overlap_detected = false;

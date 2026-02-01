@@ -42,3 +42,5 @@ if place_meeting(x,y, oBat) and current_time - last_hit_time >= 0.5 * power(10,3
 	pHealth -= 1;
 	last_hit_time = current_time;
 }
+
+
