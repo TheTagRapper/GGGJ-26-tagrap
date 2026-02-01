@@ -14,7 +14,8 @@ yprevious = y;
 
 //Determining detection paths
 sight_range = 96;
-swing_range = 48;
+swing_range = 60
+;
 
 // Adding blank chase path
 chase_path = path_add()

@@ -1,4 +1,7 @@
 curTime = current_time;
+
+
+
 if (state == guardStates.patrol)
 {
 	//Setting Looping Path
@@ -7,7 +10,7 @@ if (state == guardStates.patrol)
 		path_start(patrol_path, guard_speed, path_action_restart, true);
 	}
 	
-	// State Transition
+	// State transistion to Player
 	if(instance_exists(oPlayer))
 	{
 		var player = instance_nearest(x, y, oPlayer);
@@ -17,8 +20,14 @@ if (state == guardStates.patrol)
 			if checkThroughMasks(player, acceptable_masks){
 				state = guardStates.chase;
 				path_end();
+				//Switch to swing bypassing mask
+			} else if point_distance(x, y, player.x, player.y) <= swing_range
+			{
+				global.playerDetected = true;
+				global.playerLastSeen = current_time;
+				state = guardStates.swing;
+				guardBat = instance_create_layer(x, y, "Instances", oBat);
 			}
-			//Need to prematruely end path
 
 		}
 	}
@@ -53,7 +62,7 @@ if (state == guardStates.patrol)
 	} 
 	
 	// State Transition to swing
-	if (point_distance(x, y, player.x, player.y) < swing_range)
+	if (point_distance(x, y, player.x, player.y) <= swing_range)
 	{
 		state = guardStates.swing;
 		//Need to prematruely end path

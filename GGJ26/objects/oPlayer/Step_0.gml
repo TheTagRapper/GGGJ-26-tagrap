@@ -8,12 +8,15 @@ ysp = 0;
 if keyboard_check(ord("W"))
 {
 	ysp -= y_speed;	
-} else if keyboard_check(ord("A"))
-{
-	xsp -= x_speed;
 } else if keyboard_check(ord("S"))
 {
 	ysp += y_speed;
+}
+
+if keyboard_check(ord("A"))
+{
+	xsp -= x_speed;
+
 } else if keyboard_check(ord("D"))
 {
 	xsp += x_speed;

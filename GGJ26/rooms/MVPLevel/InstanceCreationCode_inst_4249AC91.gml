@@ -1,3 +1,3 @@
 patrol_path = MVP_CircleCenter;
 acceptable_masks = ["demMask"];
-guard_speed = 1.6
+guard_speed = 2;

@@ -4,8 +4,8 @@ ysp = 0;
 
 // Not actual speed
 // Just how much change in each dir per step
-x_speed = 2.5;
-y_speed = 2.5;
+x_speed = 3;
+y_speed = 3;
 
 masks = ["", "" ,""];
 selected_mask = masks[0]
