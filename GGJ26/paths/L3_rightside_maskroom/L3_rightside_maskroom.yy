@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"L3_rightside_maskroom",
+  "closed":true,
+  "kind":0,
+  "name":"L3_rightside_maskroom",
+  "parent":{
+    "name":"Level_Three",
+    "path":"folders/Paths/Level_Three.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1088.0,"y":480.0,},
+    {"speed":100.0,"x":1312.0,"y":480.0,},
+    {"speed":100.0,"x":1312.0,"y":832.0,},
+    {"speed":100.0,"x":1088.0,"y":832.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"L2_center_vertical_3",
+  "closed":true,
+  "kind":0,
+  "name":"L2_center_vertical_3",
+  "parent":{
+    "name":"Level_Two",
+    "path":"folders/Paths/Level_Two.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1376.0,"y":264.0,},
+    {"speed":100.0,"x":1368.0,"y":1040.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

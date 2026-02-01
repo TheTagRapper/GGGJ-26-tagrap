@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"L3_checkpoint_patrol",
+  "closed":true,
+  "kind":0,
+  "name":"L3_checkpoint_patrol",
+  "parent":{
+    "name":"Level_Three",
+    "path":"folders/Paths/Level_Three.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1856.0,"y":672.0,},
+    {"speed":100.0,"x":1856.0,"y":576.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

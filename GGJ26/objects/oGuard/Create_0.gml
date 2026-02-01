@@ -2,6 +2,8 @@
 cellWidth = 32;
 cellHeight = 32;
 
+image_index = instance_nearest(x, y, oMask).image_index;
+
 // enums have global scope
 enum guardStates { patrol, chase, swing};
 

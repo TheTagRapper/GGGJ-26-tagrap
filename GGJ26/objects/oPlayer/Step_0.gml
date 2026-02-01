@@ -8,18 +8,38 @@ ysp = 0;
 if keyboard_check(ord("W"))
 {
 	ysp -= y_speed;	
+	
+	sprite_index = sPlayer_topSide
+	
+	
 } else if keyboard_check(ord("S"))
 {
 	ysp += y_speed;
+	sprite_index = sPlayer_downSide;
+
+	
 }
 
 if keyboard_check(ord("A"))
 {
 	xsp -= x_speed;
+	sprite_index = sPlayer_leftSide
+
 
 } else if keyboard_check(ord("D"))
 {
 	xsp += x_speed;
+	sprite_index = sPlayer_rightSide;
+
+}
+
+if (abs(xsp) > abs(ysp))
+
+{
+	image_speed = xsp/3;
+} else
+{
+	image_speed = ysp/3;
 }
 
 //replace oWall with array when needed

@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"L3_beforecheckpoint",
+  "closed":true,
+  "kind":0,
+  "name":"L3_beforecheckpoint",
+  "parent":{
+    "name":"Level_Three",
+    "path":"folders/Paths/Level_Three.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1632.0,"y":1184.0,},
+    {"speed":100.0,"x":1632.0,"y":608.0,},
+    {"speed":100.0,"x":1536.0,"y":608.0,},
+    {"speed":100.0,"x":1536.0,"y":1184.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+patrol_path = L3_leftside_maskroom;

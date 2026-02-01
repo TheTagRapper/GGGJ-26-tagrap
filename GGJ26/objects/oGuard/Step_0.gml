@@ -2,6 +2,7 @@ curTime = current_time;
 
 
 
+
 if (state == guardStates.patrol)
 {
 	//Setting Looping Path
