@@ -1,1 +1,1 @@
-player = instance_nearest(x, y, oPlayer)
+player = instance_nearest(x, y, oPlayer);

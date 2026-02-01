@@ -23,6 +23,7 @@ return_path = path_add()
 // CREATION CODE DEFAULTS
 acceptable_masks = ["demMask"]
 patrol_path = demoPath;
+guard_speed = 1.5;
 
 //Creating mp_grid to create solids
 global.grid = mp_grid_create(0, 0, room_width / cellWidth , room_height / cellHeight, cellWidth, cellHeight)

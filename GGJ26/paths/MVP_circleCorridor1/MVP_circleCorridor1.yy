@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"MVP_circleCorridor1",
+  "closed":true,
+  "kind":0,
+  "name":"MVP_circleCorridor1",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":544.0,"y":1152.0,},
+    {"speed":100.0,"x":960.0,"y":1120.0,},
+    {"speed":100.0,"x":960.0,"y":1216.0,},
+    {"speed":100.0,"x":544.0,"y":1184.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -4,7 +4,7 @@ if (state == guardStates.patrol)
 	//Setting Looping Path
 	if (path_index != patrol_path and path_index != return_path)
 	{
-		path_start(patrol_path, 1.5, path_action_restart, true);
+		path_start(patrol_path, guard_speed, path_action_restart, true);
 	}
 	
 	// State Transition
@@ -30,7 +30,7 @@ if (state == guardStates.patrol)
 	// Does using mp_grid path (better than linear)
 	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, true)
 	{
-		path_start(chase_path, 1.5, path_action_stop, true);
+		path_start(chase_path, guard_speed, path_action_stop, true);
 	}
 	
 	// Checks if its been too long since its seen the player
@@ -47,7 +47,7 @@ if (state == guardStates.patrol)
 		
 		if mp_grid_path(global.grid, return_path, x , y ,path_get_point_x(patrol_path, 0), path_get_point_y(patrol_path, 0), true)
 		{
-				path_start(return_path, 1.5, path_action_stop, true);
+				path_start(return_path, guard_speed, path_action_stop, true);
 		}
 	 
 	} 
@@ -67,7 +67,7 @@ if (state == guardStates.patrol)
 	// Does using mp_grid path (better than linear)
 	if mp_grid_path(global.grid, chase_path, x, y, player.x, player.y, true)
 	{
-		path_start(chase_path, 1.5, path_action_stop, false);
+		path_start(chase_path, guard_speed, path_action_stop, false);
 	}
 	
 	//State Transision to Chase

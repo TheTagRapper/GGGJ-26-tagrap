@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"MVP_CircleCenter",
+  "closed":true,
+  "kind":0,
+  "name":"MVP_CircleCenter",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":992.0,"y":352.0,},
+    {"speed":100.0,"x":1120.0,"y":352.0,},
+    {"speed":100.0,"x":1120.0,"y":768.0,},
+    {"speed":100.0,"x":992.0,"y":768.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
